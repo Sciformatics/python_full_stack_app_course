@@ -3,5 +3,14 @@ h1 {
 }
 
 li{
-    color: green;
+    color: rgba(0, 81, 66, 1);
+}
+
+p {
+    color: turquoise
+}
+
+h4 {
+
+    color: maroon
 }
