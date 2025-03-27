@@ -1,0 +1,17 @@
+body {
+    background: url(https://i.ytimg.com/vi/1oahTaVIQvk/maxresdefault.jpg);
+    background-repeat: no-repeat;
+}
+
+div {
+    background-color: blue;
+    border-color: orange;
+    border-width: 5px;
+    border-style: double;
+}
+span {
+    background-color: red
+}
+p {
+    color: maroon
+}
