@@ -1,0 +1,36 @@
+.firstDiv {
+    color: blue;
+}
+
+/* .className {} is how you format specific classes */
+
+.secondDiv {
+    color:red;
+}
+
+/* hashtag elements specifically affect elements with ids*/
+#singledOut {
+    color:green;
+    text-decoration: line-through;
+}
+/* asterisks affect all elements in a webpage which aren't associated with ids */
+
+/* *{
+    color:black;
+} */
+
+/* h3 + ul pairs all h3 elements and ul elements to have specific features  */
+h3 + ul {
+    border: 4px dotted purple;
+}
+
+li a{
+
+    color:red;
+
+}
+
+li a[href="www.google.com"]{
+    color: blue;
+    border: 5px solid orange;
+}
