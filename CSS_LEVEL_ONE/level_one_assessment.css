@@ -1,0 +1,50 @@
+h1 {
+    color:black;
+    border: black;
+    border-style: ridge;
+}
+
+body {
+    background-color:lightblue;
+}
+
+#welcome_msg {
+    background-color: palegoldenrod;
+}
+
+#what_is_site_for {
+    color: purple;
+}
+
+#first_list_element {
+    color: purple;
+}
+
+#link_to_google {
+    color:blue;
+}
+
+#pls_log_in_msg {
+    color: purple;
+}
+
+.login_borders {
+    border-color: red;
+    border-style:ridge;
+}
+
+#questions {
+    background-color: palegoldenrod'
+}
+
+.final_review_box {
+
+    background-color: blue;
+    border-color: palegoldenrod;
+    border-style: dashed;
+
+}
+
+.final_review_box p {
+    background-color: palegoldenrod;
+}
