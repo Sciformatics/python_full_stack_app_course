@@ -9,6 +9,14 @@
     font-style: normal;
 }
 
+.winky-sans {
+
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 40px;
+    font-style: normal;
+}
+
 p {
     font-family: monospace;
 }
