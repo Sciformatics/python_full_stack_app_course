@@ -1,0 +1,40 @@
+td {
+    background-color: black;
+    height:200px;
+    width: 150px;
+    border-radius: 5px;
+    border: 6px solid white;
+    align-content: center;
+
+}
+
+.google_font {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 40px;
+    font-style: normal;
+}
+
+.format_table {
+    margin: auto;
+}
+
+.google_font {
+    text-align: center;
+}
+
+#one {
+    background-color: #171A21;
+}
+#two {
+    background-color: #617073;
+}
+#three {
+    background-color: #7A93AC;
+}
+#four {
+    background-color: #92BCEA;
+}
+#five {
+    background-color: #AFB3F7;
+}
