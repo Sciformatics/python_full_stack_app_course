@@ -26,10 +26,3 @@ html, body {
     border-left-width: 50px;
     border-bottom-width: 50px;
 }
-
-#submit_button {
-    background-color:orange;
-    border-radius: 40px;
-    height: 40px;
-    font-family: "Winky Sans", sans-serif;
-}

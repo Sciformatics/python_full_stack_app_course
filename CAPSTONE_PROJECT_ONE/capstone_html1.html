@@ -5,8 +5,9 @@
         <meta charset="utf-8">
         <title>capstone</title>
         <link rel="stylesheet" href="capstone_html1.css">
+        <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="winky-sans" id="body">
         <h1 id="title">Welcome to the landing page</h1>
         <h2 class="subtitles">We're a start up that does something</h2>
 
@@ -15,7 +16,7 @@
 
         <h2 class="subtitles">Sign up for our upcoming launch</h2>
 
-        <form class="form_class">
+        <form class="form_class" action="capstone_html_form_landing_page.html" method="get">
 
             <p id="first_name">First Name:</p>
             <input type="text" name="" placeholder="first name" required>
@@ -24,7 +25,7 @@
             <p id="email">Email:</p>
             <input type="email" name="" placeholder="email" required>
             <p></p>
-            <input id="submit_button" type="submit" name="" value="Sign me up!">
+            <a href="capstone_html_form_landing_page.html"><input id="submit_button" type="submit" name="" value="Sign me up!"></a>
 
         </form>
     </body>
