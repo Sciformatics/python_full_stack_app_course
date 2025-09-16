@@ -1,3 +1,45 @@
-.container {
+.heading {
+    position: fixed;
+    top: 0;
+}
+.restart_button {
+    position: relative;
+    top: 0.2;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: adds a light background color */
+}
+
+/* This creates the 3x3 grid layout */
+.grid-container {
     display: grid;
+    grid-template-columns: repeat(3, 200px); /* 3 columns, each 100px wide */
+    grid-template-rows: repeat(3, 200px);    /* 3 rows, each 100px tall */
+    border: 2px solid black; /* The main outer border */
+    width: fit-content;      /* Fits the container to the size of its content */
+}
+
+/* This styles the individual cells within the grid */
+.grid-cell {
+    border: 1px solid black; /* Inner borders for the cells */
+    /* The following ensures the inner borders don't duplicate the outer border */
+    border-top: none;
+    border-left: none;
+    justify-content: center;
+    font-size: xx-large;
+    align-items: center; 
+    display: flex;
+}
+
+/* Special styling for the top and left borders of the grid */
+.grid-cell:nth-child(-n+3) {
+    border-top: 1px solid black;
+}
+.grid-cell:nth-child(3n+1) {
+    border-left: 1px solid black;
 }

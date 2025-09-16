@@ -3,25 +3,42 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>
-            Tic Tac Toe
-        </title>
-        <link rel="stylesheet" href="tictactoe.css"> 
-        <h1>Tic Tac Toe!</h1>
-        <input type="button" value="Restart">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="tictactoe.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  -->
+        <h1 class="heading" id="balls">Tic Tac Toe!</h1>
+        <input class="restart_button" type="button" value="Restart">   
     </head>
     <body>
-        <div class="container">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
-            <div>7</div>
-            <div>8</div>
-            <div>9</div>
-        </div> 
+        <div class="grid-container">
+            <div class="grid-cell">
+                <p id="bottom-left"></p>
+            </div>
+            <div class="grid-cell">
+                <p id="bottom-middle"></p>
+            </div>
+            <div class="grid-cell">
+                <p id="bottom-right"></p>
+            </div>
+            <div class="grid-cell">
+                <p id="middle-left"></p>
+            </div>
+            <div class="grid-cell">
+                <p id="middle"></p>
+            </div>
+            <div class="grid-cell">
+                <p id="middle-right"></p>
+            </div>
+            <div class="grid-cell">
+                <p id="top-left"></p>
+            </div>
+            <div class="grid-cell">
+                <p id="top-middle"></p>
+            </div>
+            <div class="grid-cell">
+                <p id="top-right"></p>
+            </div>
+        </div>
     </body>
-    <script src='tictaetoe.js'></script>
+    <script src='tictactoe.js'></script>
 </html>
