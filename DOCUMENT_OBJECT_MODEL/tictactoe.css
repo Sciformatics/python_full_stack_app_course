@@ -3,8 +3,20 @@
     top: 0;
 }
 .restart_button {
-    position: relative;
-    top: 0.2;
+    position: fixed;
+    top: 100px;
+}
+.migrants {
+    position: fixed;
+    top: 80px;
+    font-size: 150px;
+    color: white;
+
+}
+
+.migrants-boat {
+    position: fixed;
+    bottom: 20px
 }
 body {
     display: flex;
@@ -18,10 +30,14 @@ body {
 /* This creates the 3x3 grid layout */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 200px); /* 3 columns, each 100px wide */
-    grid-template-rows: repeat(3, 200px);    /* 3 rows, each 100px tall */
+    grid-template-columns: repeat(3, 150px); /* 3 columns, each 100px wide */
+    grid-template-rows: repeat(3, 150px);    /* 3 rows, each 100px tall */
     border: 2px solid black; /* The main outer border */
     width: fit-content;      /* Fits the container to the size of its content */
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
 
 /* This styles the individual cells within the grid */
@@ -34,12 +50,4 @@ body {
     font-size: xx-large;
     align-items: center; 
     display: flex;
-}
-
-/* Special styling for the top and left borders of the grid */
-.grid-cell:nth-child(-n+3) {
-    border-top: 1px solid black;
-}
-.grid-cell:nth-child(3n+1) {
-    border-left: 1px solid black;
 }
