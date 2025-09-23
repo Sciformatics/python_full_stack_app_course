@@ -11,4 +11,9 @@
 .container {
     color: black
 }
- 
+
+.nav-item {
+  
+  position: fixed;
+
+}
