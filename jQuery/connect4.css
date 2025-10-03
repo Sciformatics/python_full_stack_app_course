@@ -3,3 +3,27 @@
     top:10px;
 
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 150px); /* 3 columns, each 100px wide */
+    grid-template-rows: repeat(3, 150px);    /* 3 rows, each 100px tall */
+    border: 2px solid black; /* The main outer border */
+    width: fit-content;      /* Fits the container to the size of its content */
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/* This styles the individual cells within the grid */
+.grid-cell {
+    border: 1px solid black; /* Inner borders for the cells */
+    /* The following ensures the inner borders don't duplicate the outer border */
+    border-top: none;
+    border-left: none;
+    justify-content: center;
+    font-size: xx-large;
+    align-items: center; 
+    display: flex;
+}
