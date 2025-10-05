@@ -1,9 +1,33 @@
-.welcome-header {
+.heading {
     position: fixed;
-    top:10px;
+    top: 0;
+}
+.restart_button {
+    position: fixed;
+    top: 100px;
+}
+.migrants {
+    position: fixed;
+    top: 80px;
+    font-size: 150px;
+    color: white;
 
 }
 
+.migrants-boat {
+    position: fixed;
+    bottom: 20px
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: adds a light background color */
+}
+
+/* This creates the 3x3 grid layout */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 150px); /* 3 columns, each 100px wide */
